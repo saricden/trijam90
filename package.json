@@ -1,0 +1,38 @@
+{
+  "name": "trijam90",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --entry ./src/game.js --open",
+    "build": "webpack --mode production --entry ./src/game.js --output ./dist/game.js",
+    "dev": "webpack --mode development --entry ./src/game.js --output ./dist/game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saricden/trijam90.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saricden/trijam90/issues"
+  },
+  "homepage": "https://github.com/saricden/trijam90#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^4.3.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  }
+}
